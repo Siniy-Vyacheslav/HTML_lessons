@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Yura gay!</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A Pile">
+        <meta name="author" content="Siniy Vyacheslav">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/images/favicono.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+        <base href="https://vk.com/" target="_blank">
+    </head>
+    <body>
+        <h1>My First Heading</h1>
+        <a href="#H2">Jump to Header 2</a>
+        <p title="I'm a tooltip"; id="p01">My first paragraph.</p>
+        <a id="some" href="im">The way to VK</a>
+        <hr>
+        <a href="feed">
+            <img src="https://im0-tub-ru.yandex.net/i?id=f31fa364407a55ff1b873e479ff72333&n=13&exp=1" alt="vk.com" 
+                style="width:142px;height:142px;">
+        </a>
+
+        <p><img src="https://im0-tub-ru.yandex.net/i?id=f31fa364407a55ff1b873e479ff72333&n=13&exp=1" alt="some image"
+            usemap="#workmap"
+            style="float: right;width:142px;height:142px;">
+            The image will float to the right of the text.</p>
+
+        <map name="workmap">
+            <area shape="circle" coords="73, 73, 45" href="https://vk.com/im" alt="Figure" target="_blank">
+        </map>
+        
+        
+        <ul>
+            <li style="color:red">Coffee</li>
+            <li class="error">Tea</li>
+            <li class="error">Milk</li>
+        </ul>
+          
+        <ol>
+            <li>Coffee</li>
+            <li class="error">Tea</li>
+            <li class="error">Milk</li>
+        </ol>
+        <h1>This is heading 1</h1>
+        <p>This is some text.</p>
+        <hr>
+        <h2 id="H2">This is heading 2</h2>        
+        <p>This is some other text</p>
+        <hr>
+        <pre>
+            My Bonnie lies over the ocean.
+
+            My Bonnie lies over the sea.
+
+            My Bonnie lies over the ocean.
+
+            Oh, bring back my Bonnie to me.
+        </pre>
+        <pre>
+            <b>Some text</b>
+            <strong>Some text</strong>
+            <i>Some text</i>
+            <em>Some text</em>
+            <mark>Some text</mark>
+            <small>Some text</small>
+            <del>Some text</del>
+            <ins>Some text</ins>
+            <p>Text<sub>Some text</sub></p>
+            <p>Text<sup>Some text</sup></p>
+        </pre>
+
+        <p>WWF's goal is to: 
+        <q>Build a future where people live in harmony with nature.</q></p>
+        
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.ofg/who/index.html">
+            For 50 years, WWF has been protecting the future of nature.
+            The world's leading conservation organization,
+            WWF works in 100 countries and is supported by
+            1.2 million members in the United States and
+            close to 5 million globally.
+        </blockquote>
+
+        <p>The <abbr title="World Health Organization">WHO</abbr> was
+        founded in 1948</p>
+
+        <address>
+            Written by John Doe.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+        </address>
+
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+        <bdo dir="rtl">This text will be written from right to left</bdo>
+
+        <!-- Write your comments here-->
+
+        <table style="width:100%" id="t01">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th> 
+              <th colspan="2">Age</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td> 
+              <td>50</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td> 
+              <td>94</td>
+              <td>53</td>
+            </tr>
+        </table>
+
+
+        <table>
+            <caption>Monthly savings</caption>
+            <tr>
+                <th>Name:</th>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Telephone:</th>
+                <td>55577854</td>
+            </tr>
+            <tr>
+                <td>55577855</td>
+            </tr>
+        </table>
+
+        <div>Hello World</div>
+        <span>Hello World</span>
+        <div>Hello World</div>
+
+        <p>This is <div>Hello World</div> adsfa</p>
+        <p>This is <span>Hello World</span> adsfa</p>
+
+        <div id="d01">
+            <h2>London</h2>
+            <p>London is the capital city of England. It is the most 
+                populous city in the United Kingdom, with a 
+                metropolitan area of over 13 million inhabitants.</p>
+        </div>
+
+        <h1>My <span class="note">Important</span> Heading</h1>
+        <p>This is some <span class="note">important</span> text.</p>
+
+        <iframe src="http://127.0.0.1:5000" name="iframe_a"></iframe>
+        <p><a href="http://vk.com/" target="iframe_a">VK.com</a></p>
+    
+        <code>
+            x = 5;<br>
+            y = 6;<br>
+            z = x + y;
+        </code>
+
+        <p>something <kbd>here</kbd></p>
+        <p>something <samp>there</samp></p>
+        <p>10&nbsp;km/h</p>
+        <p>2&#8209;3 times </p>
+
+        <form>
+            <input type="radio" name="gender" value="male" checked> Male <br>
+            <input type="radio" name="gender" value="female"> Female <br>
+            <input type="radio" name="gender" value="other"> Other <br>
+        </form>
+
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Personal information:</legend>
+                First name: <br>
+                <input type="text" name="firstname"><br>
+                Last name:<br>
+                <input type="text" name="lastname"> <br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <hr>
+
+        <form>
+            <select name="cars" size="3" multiple>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat" selected>Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+        </form>
+
+        <hr>
+
+        <form>
+            <textarea name="message" cols="33" rows="10">The cat was playing in the garden.</textarea>
+        </form>
+
+        <form>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+        </form>
+
+        <form action="">
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+        </form>
+
+        <form action="" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            0
+            <input type="range" name="a" id="a" value="50">
+            100 +
+            <input type="number" name="b" id="b" value="50">
+            =
+            <output name="x" for="a b"></output>
+            <br><br>
+            <input type="submit">
+        </form>
+
+        
+    </body>
+</html>
+
